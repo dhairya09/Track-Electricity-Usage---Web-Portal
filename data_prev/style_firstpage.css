@@ -1,0 +1,521 @@
+
+table{
+  border: 1px solid black;
+}
+
+.main{
+
+
+  margin-left: 25em;
+  margin-right: 25em;
+
+
+
+}
+
+.SearchBox{
+    border: 2px solid #D2D2D0;
+    background-color: #F5F4F3;
+}
+
+.heading{
+
+
+
+      color: black;
+      text-align: center;
+      padding: 1px;
+      font-size: 25px;
+}
+
+.content{
+
+
+     color: black;
+     padding-left: 3px;
+     white-space: nowrap
+
+}
+
+
+
+.row1 {
+    /*width: 6.25%;*/
+
+    /*height: 140px;*/
+    height: 20%;
+}
+
+.row2 {
+    /*width: 6.25%;*/
+
+    /*height: 140px;*/
+    height: 60%;
+}
+.col1 {
+    /*width: 6.25%;*/
+
+    /*height: 140px;*/
+  width: 50%;
+}
+.col2 {
+    /*width: 6.25%;*/
+
+    /*height: 140px;*/
+    width: 50%;
+}
+
+
+
+.row3 {
+    /*width: 18.75%;*/
+      /*border: 1px solid green !important;*/
+  /*height: 88px;*/
+  height: 20%;
+}
+
+
+
+/*------------------------------ Sprites ------------------------------*/
+#navigation, #navigation li.selected a, #navigation li a:hover, .blog h2, .frame, .heading1, .heading2, #blog .list li {
+	background: url(../images/interface.png) no-repeat;
+}
+.box, .box > div, .box > div > div {
+	background-image: url(../images/bg-contentbox.png);
+	background-repeat: no-repeat;
+}
+.box2, .box2 > div {
+	background-image: url(../images/bg-sidebar.png);
+	background-repeat: no-repeat;
+}
+#connect a, .archives > li > span {
+	background: url(../images/icons.png) no-repeat;
+}
+.more:hover, #connect a:hover {
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+.frame {
+	background-position: right bottom;
+	height: 216px;
+	width: 268px;
+	margin: 0 0 12px -7px;
+	padding: 12px 13px 14px;
+}
+.heading1, .heading2 {
+	background-position: -258px -60px;
+	height: 54px;
+	line-height: 54px;
+	width: 240px;
+	margin: 0 auto;
+	text-align: center;
+	text-shadow: 0 1px #fff;
+}
+.heading2 {
+	background-position: right -60px;
+	height: 45px;
+	line-height: 45px;
+	width: 440px;
+}
+
+
+
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	background: url(../images/bg-header.png) repeat-x left top;
+	/*display: inline-table;*/
+	height: 140px;
+	text-align: right;
+	width: 100%;
+
+}
+/** logo **/
+#logo {
+	float: left;
+	margin: 40px 0 0;
+}
+
+.area {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+
+/*------------------------------ CONTENT ------------------------------*/
+.button_elec{
+
+
+  width:214px;/*181*/
+  height: 42px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(153,0,0);
+
+    font-size: 17px;
+    font-weight: bold;
+
+    margin-top:260px;
+    margin-left: 260px;
+
+
+
+
+    /*margin-left: 7px;*/
+}
+
+.bord_links_elec {
+
+  border: 4px solid black;
+    color: black;
+
+  padding-top : 10px;
+  padding-bottom: 20px;
+  padding-left: 42px;
+  padding-right:32px;
+  letter-spacing: 3px;
+
+}
+
+
+
+a.bord_links_elec:hover{
+  background-color: white;
+  color: black;
+}
+
+
+.button_admin{
+
+
+    width:214px;/*181*/
+    height: 42px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(153,0,0);
+    font-size: 17px;
+    font-weight: bold;
+
+    margin-top:260px;
+    margin-left: 260px;
+
+
+
+
+    /*margin-left: 7px;*/
+}
+
+.bord_links_admin {
+
+  border: 4px solid black;
+    color: black;
+
+  padding-top : 10px;
+  padding-bottom: 20px;
+  padding-left: 32px;
+  padding-right:22px;
+  letter-spacing: 3px;
+
+}
+
+
+
+a.bord_links_admin:hover{
+  background-color: white;
+  color: black;
+}
+
+div.message {
+	border: 2px solid #8D0D19;
+	color: #8D0D19; font-weight: bold;
+	margin: 1em 0 ; padding: 1em;
+}
+
+div.error {
+	color: #8D0D19; border: 2px solid #8D0D19;
+	margin: 1em 0; padding: 1em;
+}
+div.error ul { padding-left: 2em; }
+
+/*------------------------------ DispTable ------------------------------*/
+
+.babu{
+  display: inline-block;
+}
+
+
+.dispTable, .dispTable TD
+{
+font-family:Cabin-Regular;
+font-size:10pt;
+color:black;
+border-collapse : collapse;
+border: 1px solid black;
+}
+
+.dispTable TH
+{
+	font-family: Cabin-Regular;
+	font-size: 10pt;
+	color: black;
+	border-collapse : collapse;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #E5E5E5;
+	font-weight: bold;
+	clear: both;
+}
+.dispTable td a, .dispTable td a:hover
+{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.dataPageTable, .dataPageTable TD
+{
+font-family:Cabin-Regular;
+font-size:40pt;
+color:black;
+border-collapse : collapse;
+border: 1px solid black;
+width="100%";
+height="100%";
+table-layout:fixed;
+
+
+}
+
+.dataPageTable TH
+{
+	font-family: Cabin-Regular;
+	font-size: 20pt;
+	color: black;
+	border-collapse : collapse;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #E5E5E5;
+	font-weight: bold;
+	clear: both;
+}
+
+.dataPageTable td a, .dataPageTable td a:hover
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.dispTableBeigler, .dispTableBeigler TD
+{
+font-family:Cabin-Regular;
+font-size:10pt;
+color:black;
+border-collapse : collapse;
+border: 1px solid black;
+}
+
+.dispTableBeigler TH
+{
+	font-family: Cabin-Regular;
+	font-size: 10pt;
+	color: black;
+	border-collapse : collapse;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFFF00;
+	font-weight: bold;
+	clear: both;
+}
+.dispTableBeigler td a, .dispTableBeigler td a:hover
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.dispTableJefferson, .dispTableJefferson TD
+{
+font-family:Cabin-Regular;
+font-size:10pt;
+color:black;
+border-collapse : collapse;
+border: 1px solid black;
+}
+
+.dispTableJefferson TH
+{
+	font-family: Cabin-Regular;
+	font-size: 10pt;
+	color: black;
+	border-collapse : collapse;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #00FF00;
+	font-weight: bold;
+	clear: both;
+}
+.dispTableJefferson td a, .dispTableJefferson td a:hover
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.dispTableCHP, .dispTableCHP TD
+{
+font-family:Cabin-Regular;
+font-size:10pt;
+color:black;
+border-collapse : collapse;
+border: 1px solid black;
+}
+
+.dispTableCHP TH
+{
+	font-family: Cabin-Regular;
+	font-size: 10pt;
+	color: black;
+	border-collapse : collapse;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #66FFFF;
+	font-weight: bold;
+	clear: both;
+}
+.dispTableCHP td a, .dispTableCHP td a:hover
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.dispTableSVR, .dispTableSVR TD
+{
+font-family:Cabin-Regular;
+font-size:10pt;
+color:black;
+border-collapse : collapse;
+border: 1px solid black;
+}
+
+.dispTableSVR TH
+{
+	font-family: Cabin-Regular;
+	font-size: 10pt;
+	color: black;
+	border-collapse : collapse;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ff9900;
+	font-weight: bold;
+	clear: both;
+}
+.dispTableSVR td a, .dispTableSVR td a:hover
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+/*------------------------------ FOOTER ------------------------------*/
+#footer {
+	background: url(../images/bg-footer.png) repeat-x left top;
+    /*border: 1px solid black !important;*/
+	display: inline-block;
+	width: 100%;
+	padding: 30px 0;
+}
+.divider {
+	background: url(../images/divider.png) no-repeat center top;
+	display: block;
+	height: 2px;
+	width: 572px;
+	margin: 0 auto;
+	position: relative;
+	top: -31px;
+}
+#footer p {
+	color: #2f2203;
+	font: 12px/24px Arial, Helvetica, sans-serif;
+	margin: 0;
+	text-shadow: 0 1px #fff;
+}
+#connect {
+	float: right;
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#connect a {
+	float: left;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	margin: 0 15px;
+}
+#connect a.googleplus {
+	background-position: 0 0;
+}
+#connect a.mail {
+	background-position: 0 -40px;
+}
+#connect a.facebook {
+	background-position: 0 -80px;
+}
+#connect a.twitter {
+	background-position: 0 -120px;
+}
+
+#connect a, .archives > li > span {
+	background: url(../images/icons.png) no-repeat;
+}
+
+.more:hover, #connect a:hover {
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+
+
+/*-----------------------------Services By Building ------------------------------------------*/
+
+table.sortable th
+{
+    font-family: Cabin-Regular;
+	font-size: 10pt;
+	color: black;
+	border-collapse : collapse;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #E5E5E5;
+	font-weight: bold;
+	clear: both;
+}
+
+table.sortable, table.sortable TD
+{
+font-family:Cabin-Regular;
+font-size:10pt;
+color:black;
+border-collapse : collapse;
+border: 1px solid black;
+}
+
+table.sortable td a, table.sortable td a:hover
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}

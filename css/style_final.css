@@ -1,0 +1,119 @@
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	background: url(../images/bg-header.png) repeat-x left top;
+	/*display: inline-table;*/
+	height: 140px;
+	text-align: right;
+	width: 100%;
+  position: relative;
+  top:0px;
+    left:0px;
+
+
+}
+/** logo **/
+#logo {
+	float: left;
+	margin: 40px 0 0;
+}
+
+.area {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+/*------------------------------ CONTENT ------------------------------*/
+
+body{
+  height: 100%;
+}
+.title{
+  color: #8B0000;
+}
+
+ table,tr,th,td{
+  border-style: solid;
+  border-width: 2px;
+  border-collapse: collapse;
+  border-color: #8B0000;
+
+
+}
+td{
+  text-align: center;
+}
+.row2{
+
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height:100%;
+    color: #800000;
+    padding: 180px 40%;
+}
+
+/*------------------------------ FOOTER ------------------------------*/
+#footer {
+	background: url(../images/bg-footer.png) repeat-x left top;
+    /*border: 1px solid black !important;*/
+	/*display: inline-block;*/
+
+	width: 100%;
+	padding: 30px 0;
+
+  position: relative;
+  bottom:0px;
+   left:0px;
+
+
+}
+.divider {
+	background: url(../images/divider.png) no-repeat center top;
+	display: block;
+	height: 2px;
+	width: 572px;
+	margin: 0 auto;
+	position: relative;
+	top: -31px;
+}
+#footer p {
+	color: #2f2203;
+	font: 12px/24px Arial, Helvetica, sans-serif;
+	margin: 0;
+	text-shadow: 0 1px #fff;
+}
+#connect {
+	float: right;
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#connect a {
+	float: left;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	margin: 0 15px;
+}
+#connect a.googleplus {
+	background-position: 0 0;
+}
+#connect a.mail {
+	background-position: 0 -40px;
+}
+#connect a.facebook {
+	background-position: 0 -80px;
+}
+#connect a.twitter {
+	background-position: 0 -120px;
+}
+
+#connect a, .archives > li > span {
+	background: url(../images/icons.png) no-repeat;
+}
+
+.more:hover, #connect a:hover {
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
